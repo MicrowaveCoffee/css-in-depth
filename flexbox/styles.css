@@ -68,12 +68,18 @@ body * + * {
 /*Applies a flexbox layout to the main container*/
 .flex {
     display: flex;
-    
-
 }
 
 /*Removes top margin and creates space around the flex items*/
 .flex > * + * {
     margin-top: 0;
     margin: 1.5em;
+}
+
+.column-main {
+    flex: 2;
+}
+
+.column-sidebar {
+    flex: 1;
 }

@@ -1,0 +1,32 @@
+header {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'serif';
+}
+
+#page-title {
+    font-family: 'sans-serif';
+}
+
+.title {
+    font-family: 'monospace';
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: .25em;
+}
+
+button {
+    margin-left: .5em;
+}
+
